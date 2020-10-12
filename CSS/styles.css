@@ -1,0 +1,178 @@
+body { 
+    width: 100%;
+    height: 100%;
+    background-color: rgb(164, 212, 240);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Josefin Slab', serif;
+    font-size: large;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+}    
+p {
+    font-family: 'Montserrat', sans-serif;
+    margin-inline-start: 10%;
+}
+tr p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70%;
+}
+
+tr h3 {
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    font-size: 200%;
+}
+
+strong {
+    color:rgb(92, 92, 236);
+}
+
+img.medium {
+    width: 50%;
+    height: 80%;
+    margin-inline-start: 25%;
+    text-align: center;
+}
+
+img.small {
+    image-resolution: 100%;
+    padding: 20px;
+    height: 10%;
+}
+
+.icon {
+    float: right;
+    padding: 5px;
+    width: 5%;
+    height: 5%;
+}
+
+figcaption {
+    margin-inline-start: 25%;
+    font-size: 70%;
+}
+
+
+/* Side tracker of crumbs of site */
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.crumbs {
+    display: inline-block;
+
+}
+
+.crumbs a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+
+/* Menu Bar */
+.topnav {
+    align-content: center;
+    margin-inline-start: 35%;
+}
+
+.topnav a {
+    float: left;
+    color: #111857;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-inline-start: 10px;
+}
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #4f89b8;
+    color: white;
+}
+  
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4f89b8;
+    color: white; 
+}
+
+/* Opening page */
+#starterpage {
+    max-width: 100%;
+    align-content: center;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+#button1 {
+    background-color: rgb(77, 155, 185);
+    margin: -10%;
+    margin-inline-start: 10%;
+    border-radius: 80px;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 200%;
+    cursor: pointer;
+    position: absolute;
+}
+
+/* Home pg */
+.columns {
+    width: 90%;
+    /* columns: 2; */
+}
+.column1of2 {
+    width: 40%;
+    float: left;
+    margin: 0px;
+    padding: 20px;
+}
+.column2of2 {
+    width: 40%;
+    float: right;
+    margin: 0px;
+    padding: 20px;
+}
+.clear {
+    clear: left;
+}
+
+
+/* Recipe Page*/
+table {
+    width: 50%;
+    align-content: center;
+    margin-inline-start: 25%;
+    border: 5px solid midnightblue;
+}
+
+.leftalign {
+    float: left;
+}
+
+.rightalign {
+    float: right;
+}
+.textleft {
+    float: left;
+    text-align: left;
+}
+.textright {
+    float: right;
+    text-align: right;
+}
+
+td, th {
+    padding: 8px;
+  }
+
